@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #131720;
+    background-color: #4b5563;
     font-family:sans-serif;
 }
 h3{
@@ -12,8 +12,9 @@ h3{
 
 .topnav{
     overflow: hidden;
-    background-color:#131720;
+    background-color:#4b5563;
     padding:10px;
+    border-radius:10px;
 }
 
 .topnav a{
@@ -23,8 +24,10 @@ h3{
     text-align:center;
     padding:14px 16px;
     text-decoration:none;
-    font-size:1.2rem;
+    font-size:3rem;
     text-transform:uppercase;
+    font-family: 'Nabla', sans-serif;
+    transform: 1,6s;
 }
 
 .topnav .search-container{
@@ -65,5 +68,40 @@ input{
     border-radius:19px;
     padding:15px;
     text-align:center;
-    background-color:#151f30;
+    background-color:#69778b;
+    font-family: 'Libre Bodoni', serif;  
+    
+}
+#query{
+    font-family: 'Libre Bodoni', serif; 
+}
+#title{
+    color:#e2e1dd;
+}
+
+.releases{
+    font-family:'Nabla', sans-serif;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    font-size:1.8rem;
+    margin:0;
+}
+
+footer a{
+    text-decoration:none;
+    font-family: 'Libre Bodoni', serif;  
+    color: rgba(169, 184, 74, 1);
+   
+    font-style:italic;
+    
+
+}
+i{
+    transition:.5s ease-in-out;
+    color:rgba(169, 184, 74, 1);
+    
+}
+.footer i:hover{
+    rotate:2turn;
 }
